@@ -6120,7 +6120,7 @@ class ProviderConfigManager:
         model: str,
         provider: LlmProviders,
         api_base: Optional[str],
-        present_version_params: dict,
+        present_version_params: list[str],
     ) -> BaseRerankConfig:
         if litellm.LlmProviders.COHERE == provider:
             return litellm.CohereRerankConfig(api_base, present_version_params)
