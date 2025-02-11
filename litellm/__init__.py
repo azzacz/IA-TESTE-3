@@ -94,6 +94,7 @@ _custom_logger_compatible_callbacks_literal = Literal[
     "galileo",
     "braintrust",
     "arize",
+    "arize_phoenix",
     "langtrace",
     "gcs_bucket",
     "azure_storage",
