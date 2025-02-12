@@ -1872,6 +1872,7 @@ class LlmProviders(str, Enum):
     LANGFUSE = "langfuse"
     HUMANLOOP = "humanloop"
     TOPAZ = "topaz"
+    NEBIUS = "nebius"
     ASSEMBLYAI = "assemblyai"
 
 
