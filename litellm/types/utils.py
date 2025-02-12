@@ -932,7 +932,7 @@ class ModelResponseStream(ModelResponseBase):
 
 
 class ModelResponse(ModelResponseBase):
-    choices: List[Union[Choices, StreamingChoices]]
+    choices: List[Choices]
     """The list of completion choices the model generated for the input prompt."""
 
     def __init__(
