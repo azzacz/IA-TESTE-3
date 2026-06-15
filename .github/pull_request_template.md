@@ -1,29 +1,45 @@
-## Title
+## Resumo
 
-<!-- e.g. "Implement user authentication feature" -->
+Descreva objetivamente o que mudou.
 
-## Relevant issues
+## Issues relacionadas
 
-<!-- e.g. "Fixes #000" -->
+Exemplo: `Fixes #123`
 
-## Type
+## Tipo de alteração
 
-<!-- Select the type of Pull Request -->
-<!-- Keep only the necessary ones -->
+- [ ] Nova funcionalidade
+- [ ] Correção
+- [ ] Refatoração
+- [ ] Documentação
+- [ ] Segurança
+- [ ] Infra/CI
+- [ ] Testes
 
-🆕 New Feature
-🐛 Bug Fix
-🧹 Refactoring
-📖 Documentation
-🚄 Infrastructure
-✅ Test
+## Checklist Maverick
 
-## Changes
+- [ ] Li `MAVERICK.md`.
+- [ ] Li `SECURITY.md`.
+- [ ] Não inclui segredos ou credenciais reais.
+- [ ] Não inclui dados pessoais, financeiros, fiscais ou médicos reais.
+- [ ] A alteração é reversível.
+- [ ] Documentei riscos relevantes.
+- [ ] Expliquei como testar.
 
-<!-- List of changes -->
+## Como testar
 
-## [REQUIRED] Testing - Attach a screenshot of any new tests passing locally
-If UI changes, send a screenshot/GIF of working UI fixes
+```bash
+# comandos de teste aqui
+```
 
-<!-- Test procedure -->
+## Riscos
 
+Liste riscos técnicos, operacionais ou de segurança.
+
+## Rollback
+
+Explique como desfazer caso algo dê errado.
+
+## Evidências
+
+Anexe prints, logs sanitizados ou resultados de testes quando aplicável.
